@@ -16,7 +16,13 @@ I actually have.
 - **[llm-ladder](https://github.com/cascone26/llm-ladder)** — an open-source library extracted
   from LessonDraft's production failover system. Chaos-tested against injected timeouts, rate
   limits, and malformed responses — 10/10 tests passing.
-- **[deal-scout](https://github.com/cascone26/deal-scout)** — a 34-source deal-aggregation bot,
+- **[agentic-grader](https://github.com/cascone26/agentic-grader)** — an agentic batch-grading
+  pipeline with a real human-approval gate: low-confidence grades route to a teacher instead of
+  silently auto-committing.
+- **[standards-rag](https://github.com/cascone26/standards-rag)** — RAG over the real Common
+  Core Math Standards PDF, from-scratch BM25 retrieval + Claude synthesis, with an honest
+  retrieval-precision eval instead of vibes.
+- **[deal-scout](https://github.com/cascone26/deal-scout)** — a 21+-source deal-aggregation bot,
   $0 cost via pure heuristic scoring.
 - **[deep-down](https://github.com/cascone26/deep-down)** — a complete 6-phase Roblox game,
   engine-verified via automated headless testing.
